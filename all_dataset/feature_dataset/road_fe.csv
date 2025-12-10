@@ -1,0 +1,6 @@
+road_id,segment_type,length_km,slope_pct,curvature_level,roughness_index,waterlogging_risk,elevation_gain_m,is_climbing,difficulty_score
+r-01,inpit,2.64,13.408571676918994,high,2.99,low,-18,0,6.463428670767597
+r-02,ramp,4.57,7.510986703590406,low,2.58,high,-18,0,3.704394681436163
+r-03,main_haul,4.95,13.262632508189002,medium,1.62,low,-19,0,5.7050530032756015
+r-04,jetty_road,3.81,2.084795662636609,low,1.87,high,-12,0,1.2339182650546436
+r-05,jetty_road,5.98,4.793256085163651,medium,3.01,high,-39,0,3.3173024340654607
