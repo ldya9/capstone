@@ -27,7 +27,8 @@ Di dalam portal, Machine Learning berperan sebagai engine untuk prediksi dan rek
 **Model Al dan pendekatan Agentic Al** <br>
 Tim ML membangun dua model utama:
 1. Model Prediksi Produksi (Main Planner) -> Model yang digunakan: Random Forest Regressor
-2. Hasil Model Truck-to-Ship (Shipping Planner) -> Model: Random Forest + TimeSeriesSplit
+2. Hasil Model Truck-to-Ship (Shipping Planner) -> Model: Random Forest + TimeSeriesSplit <br>
+
 Agentic AI Reasoning :
 1. Mengambil output model ML
 2. Mengidentifikasi risiko operasional
