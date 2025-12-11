@@ -27,35 +27,31 @@ Model dibangun menggunakan dataset (produksi, fleet, cycle time, cuaca, logistik
 - Matplotlib <br>
 
 # **📌 Development Environment**
-- Google Colab dan Visual Studio Code <br>
+- Google Colabortory
+- Visual Studio Code <br>
 
 # **📌 Struktur Project** <br>
-\`\`\`plaintext <br>
+```
 OptiMine/
 │
 ├── all_dataset/
-│   ├── clean_dataset/          # Dataset hasil pembersihan (clean)
-│   ├── feature_dataset/        # Dataset hasil feature engineering
-│   ├── merge_dataset/          # Dataset gabungan siap training
-│   ├── models/                 # Model .joblib hasil training
-│   └── raw_dataset/            # Dataset mentah hasil scraping
+│   ├── clean_dataset/        # Dataset hasil pembersihan (clean)
+│   ├── feature_dataset/      # Dataset hasil feature engineering
+│   ├── merge_dataset/        # Dataset gabungan siap training
+│   ├── models/               # Model .joblib hasil training
+│   └── raw_dataset/          # Dataset mentah hasil scraping
 │
-├── feature_engineering/        # Script terkait pembuatan fitur
+├── feature_engineering/      # Script terkait pembuatan fitur
 │
-├── modeling/                   # Script training model (production & material flow)
+├── modeling/                 # Script training model (production & material flow)
 │
-├── data_celaning.ipynb         # Notebook preprocessing (pembersihan + konversi tipe data)
-├── Datasets_raw.ipynb          # Notebook eksplorasi dataset mentah
+├── preprocessing/
+│   ├── data_celaning.ipynb   # Notebook preprocessing
+│   └── Datasets_raw.ipynb    # Notebook eksplorasi dataset mentah
+```
+<br>
 
-
-
-
-
-
-
-
-
-**Dataset yang Dipakai** <br>
+# **📌 Dataset ** <br>
 Link Dataset : [Dataset Optimine](https://github.com/ldya9/capstone/tree/fafdb9e65e8cb6234b4e79cbbf2c1ebdf4c0155a/all_dataset/raw_dataset). 
 - Fleet
 - Heavy Equipment
@@ -66,13 +62,29 @@ Link Dataset : [Dataset Optimine](https://github.com/ldya9/capstone/tree/fafdb9e
 - Truck to Ship
 - Weather <br>
 
-**Keterbatasan & Peluang Pengembangan** <br>
-Keterbatasan
-- Belum menggunakan data operasional real-time sepenuhnya
-- Menggunakan Random Forest yang menghasilkan feature importance terbatas <br>
-Peluang Pengembangan
-- Penggunaan Model ML yang Lebih Lanjut (XGBoost, LightGBM, Time Series model (Prophet, ARIMA, LSTM), dll)
-- Deployment yang Lebih Stabil (Dockerization, CI/CD pipeline, automatic retraining, dll).
+# **📌 How to Use** <br>
+- pip install -r requirements.txt
+- Download datasets on datasets link : [Dataset Optimine](https://github.com/ldya9/capstone/tree/fafdb9e65e8cb6234b4e79cbbf2c1ebdf4c0155a/all_dataset/raw_dataset).
+- Open .ipynb dengan Google Colab <br>
+
+[Production] RMSE: 609.66 | R²: 0.9037
+
+
+=== Production Top-10 Features ===
+target_ton              : 0.556003
+progress_ratio          : 0.334496
+differential            : 0.054442
+...
+
+[Truck-to-Ship] Avg RMSE: 636.11 | Avg R²: 0.8953
+
+=== Truck-to-Ship Top-10 Features ===
+weekly_ship_demand_ton  : 0.2891
+weekly_trips_total      : 0.2530
+...
+
+
+
 
 
 
