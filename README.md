@@ -12,11 +12,44 @@ Sistem Prediksi Produksi dan Optimasi Distribusi Material untuk Mining Value Cha
 - F891D5X1671 - Regina Ayuningrum- Front-End Web & Back-End with AI
 - F891D5X1961 - Windi Dwi Astuti- Front-End Web & Back-End with AI <br>
 
-📌 Deskripsi <br> 
+**📌 Deskripsi** <br> 
 Machine Learning pada proyek Mining Value Chain Optimization bertujuan untuk menyediakan prediksi operasional mingguan yang membantu dua peran utama :
 - Main Planner → prediksi produksi mingguan
-- Shipping Planner → prediksi suplai truck ke jetty
-Model dibangun menggunakan dataset (produksi, fleet, cycle time, cuaca, logistik) dan menghasilkan prediksi akurat yang nantinya dipakai oleh Agentic AI Portal untuk menjawab pertanyaan dan memberikan insight lintas proses tambang.
+- Shipping Planner → prediksi suplai truck ke jetty <br>
+Model dibangun menggunakan dataset (produksi, fleet, cycle time, cuaca, logistik) dan menghasilkan prediksi akurat yang nantinya dipakai oleh Agentic AI Portal untuk menjawab pertanyaan dan memberikan insight lintas proses tambang. <br>
+
+**📌 Tech Stack** <br>
+- Python 3.12
+- Scikit-Learn
+- Pandas & NumPy
+- Joblib
+- TimeSeriesSplit
+- Matplotlib <br>
+
+**📌 Development Environment**
+- Google Colab dan Visual Studio Code <br>
+
+**📌 Struktur Project** <br>
+CAPSTONEEE/
+│
+├── all_dataset/
+│   ├── clean_dataset/          # Dataset hasil pembersihan (cleaned data)
+│   ├── feature_dataset/        # Dataset setelah feature engineering
+│   ├── merge_dataset/          # Dataset gabungan siap modelling
+│   ├── models/                 # Model .joblib hasil training
+│   └── raw_dataset/            # Dataset mentah hasil scrapping
+│
+├── feature_engineering/        # Script untuk pembuatan fitur (progress ratio, diff, dll.)
+│
+├── modeling/                   # Script training model (production & shipping)
+│
+├── system/                     # File terkait integrasi dengan FE/BE (API, pipeline, dsb.)
+│
+├── data_celaning.ipynb         # Notebook pembersihan data (EDA + preprocessing)
+├── Datasets_raw.ipynb          # Notebook untuk eksplorasi dataset mentah
+│
+└── main.py                     # Main runner (training + evaluasi model)
+
 
 
 **Dataset yang Dipakai** <br>
