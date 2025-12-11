@@ -30,25 +30,8 @@ Model dibangun menggunakan dataset (produksi, fleet, cycle time, cuaca, logistik
 - Google Colab dan Visual Studio Code <br>
 
 **📌 Struktur Project** <br>
-CAPSTONEEE/
-│
-├── all_dataset/
-│   ├── clean_dataset/          # Dataset hasil pembersihan (cleaned data)
-│   ├── feature_dataset/        # Dataset setelah feature engineering
-│   ├── merge_dataset/          # Dataset gabungan siap modelling
-│   ├── models/                 # Model .joblib hasil training
-│   └── raw_dataset/            # Dataset mentah hasil scrapping
-│
-├── feature_engineering/        # Script untuk pembuatan fitur (progress ratio, diff, dll.)
-│
-├── modeling/                   # Script training model (production & shipping)
-│
-├── system/                     # File terkait integrasi dengan FE/BE (API, pipeline, dsb.)
-│
-├── data_celaning.ipynb         # Notebook pembersihan data (EDA + preprocessing)
-├── Datasets_raw.ipynb          # Notebook untuk eksplorasi dataset mentah
-│
-└── main.py                     # Main runner (training + evaluasi model)
+<img width="803" height="419" alt="image" src="https://github.com/user-attachments/assets/f9c5dbb5-40a9-4534-a62f-f6682e702701" />
+
 
 
 
