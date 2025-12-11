@@ -31,7 +31,7 @@ Model dibangun menggunakan dataset (produksi, fleet, cycle time, cuaca, logistik
 
 # **📌 Struktur Project** <br>
 <p align="center">
-  <img src="[LINK_GAMBAR](https://github.com/user-attachments/assets/b00f31ae-ad48-4ce6-be89-474b299e112d)" width="850">
+  <img src="(https://github.com/user-attachments/assets/b00f31ae-ad48-4ce6-be89-474b299e112d)" width="850">
 </p>
 
 
