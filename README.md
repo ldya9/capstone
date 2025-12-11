@@ -45,7 +45,7 @@ Link Dataset : [Dataset Optimine](https://github.com/ldya9/capstone/tree/fafdb9e
 - Truck to Ship
 - Weather <br>
 
-**Keterbatasan & Peluang Pengembangan**
+**Keterbatasan & Peluang Pengembangan** <br>
 Keterbatasan
 - Belum menggunakan data operasional real-time sepenuhnya
 - Menggunakan Random Forest yang menghasilkan feature importance terbatas
