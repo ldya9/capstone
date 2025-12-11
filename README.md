@@ -13,7 +13,7 @@
 
 **Optimine Machine Learning Project** <br>
 
-**Arsitektur Sistem Portal Aplikasi** 
+**Arsitektur Sistem Portal Aplikasi** <br>
 Di dalam portal, Machine Learning berperan sebagai engine untuk prediksi dan rekomendasi. Alur ML di sistem ini adalah :
 1. Data dikumpulkan dari berbagai bagian operasional (produksi, cuaca, fleet, logistik).
 2. Tim ML membersihkan dan melakukan feature engineering lalu melatih 2 model:
@@ -24,7 +24,7 @@ Di dalam portal, Machine Learning berperan sebagai engine untuk prediksi dan rek
 5. Agentic AI menerima hasil prediksi model → melakukan reasoning → mengubahnya menjadi rekomendasi operasional.
 6. UI menampilkan prediksi dan rekomendasi kepada planner.
 
-**Model Al dan pendekatan Agentic Al**
+**Model Al dan pendekatan Agentic Al** <br>
 Tim ML membangun dua model utama:
 1. Model Prediksi Produksi (Main Planner) -> Model yang digunakan: Random Forest Regressor
 2. Hasil Model Truck-to-Ship (Shipping Planner) -> Model: Random Forest + TimeSeriesSplit
@@ -33,8 +33,8 @@ Agentic AI Reasoning :
 2. Mengidentifikasi risiko operasional
 3. Memberikan rekomendasi actionable (misal: alokasi alat, prioritas hauling, dll)
 
-**Dataset yang Dipakai** 
-Link Dataset :
+**Dataset yang Dipakai** <br>
+Link Dataset : [Dataset Optimine](https://github.com/ldya9/capstone/tree/fafdb9e65e8cb6234b4e79cbbf2c1ebdf4c0155a/all_dataset/raw_dataset). 
 
 
 
