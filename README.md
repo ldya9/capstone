@@ -11,9 +11,10 @@
 - F891D5X1671 - Regina Ayuningrum- Front-End Web & Back-End with AI
 - F891D5X1961 - Windi Dwi Astuti- Front-End Web & Back-End with AI <br>
 
-Optimine Machine Learning Project <br>
+**Optimine Machine Learning Project** <br>
 
 **Arsitektur Sistem Portal** 
+
 
 
 
