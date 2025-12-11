@@ -16,7 +16,7 @@
 **Arsitektur Sistem Portal Aplikasi** <br>
 Di dalam portal, Machine Learning berperan sebagai engine untuk prediksi dan rekomendasi. Alur ML di sistem ini adalah :
 1. Data dikumpulkan dari berbagai bagian operasional (produksi, cuaca, fleet, logistik).
-2. Tim ML membersihkan dan melakukan feature engineering lalu melatih 2 model:
+2. Tim ML membersihkan dan melakukan feature engineering lalu melatih model:
     - Model prediksi produksi (Main Planner)
     - Model prediksi loading kapal (Shipping Planner)
 3. Model disimpan dalam format .joblib dan di-deploy melalui FastAPI.
@@ -25,7 +25,7 @@ Di dalam portal, Machine Learning berperan sebagai engine untuk prediksi dan rek
 6. UI menampilkan prediksi dan rekomendasi kepada planner.
 
 **Model Al dan pendekatan Agentic Al** <br>
-Tim ML membangun dua model utama:
+Tim ML membangun model utama:
 1. Model Prediksi Produksi (Main Planner) -> Model yang digunakan: Random Forest Regressor
 2. Hasil Model Truck-to-Ship (Shipping Planner) -> Model: Random Forest + TimeSeriesSplit <br>
 
