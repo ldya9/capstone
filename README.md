@@ -66,10 +66,9 @@ Link Dataset : [Dataset Optimine](https://github.com/ldya9/capstone/tree/fafdb9e
 - pip install -r requirements.txt
 - Download datasets on datasets link : [Dataset Optimine](https://github.com/ldya9/capstone/tree/fafdb9e65e8cb6234b4e79cbbf2c1ebdf4c0155a/all_dataset/raw_dataset).
 - Open .ipynb dengan Google Colab <br>
-
+```
 [Production] RMSE: 609.66 | R²: 0.9037
 
-```
 === Production Top-10 Features ===
 target_ton              : 0.556003
 progress_ratio          : 0.334496
