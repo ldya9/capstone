@@ -1,4 +1,4 @@
-           # Optimine Machine Learning Project Readme <br>
+<h1 align="center">Optimine Machine Learning Project Readme</h1> <br>
 
 # Tim Profile <br>
 
