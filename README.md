@@ -36,6 +36,24 @@ Agentic AI Reasoning :
 
 **Dataset yang Dipakai** <br>
 Link Dataset : [Dataset Optimine](https://github.com/ldya9/capstone/tree/fafdb9e65e8cb6234b4e79cbbf2c1ebdf4c0155a/all_dataset/raw_dataset). 
+- Fleet
+- Heavy Equipment
+- Production
+- Road
+- Ship Schedule
+- Stockpile
+- Truck to Ship
+- Weather <br>
+
+**Keterbatasan & Peluang Pengembangan**
+Keterbatasan
+- Belum menggunakan data operasional real-time sepenuhnya
+- Menggunakan Random Forest yang menghasilkan feature importance terbatas
+Peluang Pengembangan
+- Penggunaan Model ML yang Lebih Lanjut (XGBoost, LightGBM, Time Series model (Prophet, ARIMA, LSTM), dll)
+- Deployment yang Lebih Stabil (Dockerization, CI/CD pipeline, automatic retraining, dll).
+
+
 
 
 
