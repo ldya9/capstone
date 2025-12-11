@@ -1,6 +1,6 @@
 # Optimine Machine Learning Project Readme <br>
 
-# Team Profile <br>
+# Tim Profile <br>
 
 **Tim ID Capstone Project : A25-CS123** <br> 
 
@@ -34,7 +34,7 @@ Agentic AI Reasoning :
 3. Memberikan rekomendasi actionable (misal: alokasi alat, prioritas hauling, dll)
 
 **Dataset yang Dipakai** 
-
+Link Dataset :
 
 
 
