@@ -18,7 +18,7 @@ Machine Learning pada proyek Mining Value Chain Optimization bertujuan untuk men
 - Shipping Planner → prediksi suplai truck ke jetty <br>
 Model dibangun menggunakan dataset (produksi, fleet, cycle time, cuaca, logistik) dan menghasilkan prediksi akurat yang nantinya dipakai oleh Agentic AI Portal untuk menjawab pertanyaan dan memberikan insight lintas proses tambang. <br>
 
-# **📌 Tools & Frameworks ** <br>
+# **📌 Tools & Frameworks** <br>
 - Python 3.12
 - Scikit-Learn
 - Pandas & NumPy
@@ -53,7 +53,7 @@ OptiMine/
 
 <br>
 
-# **📌 Dataset ** <br>
+# **📌 Dataset** <br>
 Link Dataset : [Dataset Optimine](https://github.com/ldya9/capstone/tree/fafdb9e65e8cb6234b4e79cbbf2c1ebdf4c0155a/all_dataset/raw_dataset). 
 - Fleet
 - Heavy Equipment
