@@ -1,4 +1,5 @@
-<h1 align="center">Optimine Machine Learning Project Readme</h1> <br>
+<h1 align="center">Optimine Portal Machine Learning</h1> <br>
+Sistem Prediksi Produksi dan Optimasi Distribusi Material untuk Mining Value Chain Optimization (Optimine)
 
 # Tim Profile <br>
 
@@ -11,28 +12,12 @@
 - F891D5X1671 - Regina Ayuningrum- Front-End Web & Back-End with AI
 - F891D5X1961 - Windi Dwi Astuti- Front-End Web & Back-End with AI <br>
 
-**Optimine Machine Learning Project** <br>
+📌 Deskripsi <br> 
+Machine Learning pada proyek Mining Value Chain Optimization bertujuan untuk menyediakan prediksi operasional mingguan yang membantu dua peran utama :
+- Main Planner → prediksi produksi mingguan
+- Shipping Planner → prediksi suplai truck ke jetty
+Model dibangun menggunakan dataset (produksi, fleet, cycle time, cuaca, logistik) dan menghasilkan prediksi akurat yang nantinya dipakai oleh Agentic AI Portal untuk menjawab pertanyaan dan memberikan insight lintas proses tambang.
 
-**Arsitektur Sistem Portal Aplikasi** <br>
-Di dalam portal, Machine Learning berperan sebagai engine untuk prediksi dan rekomendasi. Alur ML di sistem ini adalah :
-1. Data dikumpulkan dari berbagai bagian operasional (produksi, cuaca, fleet, logistik).
-2. Tim ML membersihkan dan melakukan feature engineering lalu melatih model:
-    - Model prediksi produksi (Main Planner)
-    - Model prediksi loading kapal (Shipping Planner)
-3. Model disimpan dalam format .joblib dan di-deploy melalui FastAPI.
-4. Portal frontend (dibuat oleh tim FEBE) memanggil endpoint ini setiap planner memilih minggu tertentu.
-5. Agentic AI menerima hasil prediksi model → melakukan reasoning → mengubahnya menjadi rekomendasi operasional.
-6. UI menampilkan prediksi dan rekomendasi kepada planner.
-
-**Model Al dan pendekatan Agentic Al** <br>
-Tim ML membangun model utama:
-1. Model Prediksi Produksi (Main Planner) -> Model yang digunakan: Random Forest Regressor
-2. Hasil Model Truck-to-Ship (Shipping Planner) -> Model: Random Forest + TimeSeriesSplit <br>
-
-Agentic AI Reasoning :
-1. Mengambil output model ML
-2. Mengidentifikasi risiko operasional
-3. Memberikan rekomendasi actionable (misal: alokasi alat, prioritas hauling, dll)
 
 **Dataset yang Dipakai** <br>
 Link Dataset : [Dataset Optimine](https://github.com/ldya9/capstone/tree/fafdb9e65e8cb6234b4e79cbbf2c1ebdf4c0155a/all_dataset/raw_dataset). 
