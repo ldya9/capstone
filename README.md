@@ -30,21 +30,8 @@ Model dibangun menggunakan dataset (produksi, fleet, cycle time, cuaca, logistik
 - Google Colab dan Visual Studio Code <br>
 
 **📌 Struktur Project** <br>
-OptiMine/
-│<br>
-├── all_dataset/<br>
-│   ├── clean_dataset/          # Dataset hasil pembersihan (clean)<br>
-│   ├── feature_dataset/        # Dataset hasil feature engineering<br>
-│   ├── merge_dataset/          # Dataset gabungan siap training<br>
-│   ├── models/                 # Model .joblib hasil training<br>
-│   └── raw_dataset/            # Dataset mentah hasil scraping<br>
-│
-├── feature_engineering/        # Script terkait pembuatan fitur<br>
-│
-├── modeling/                   # Script training model (production & material flow)<br>
-│
-├── data_celaning.ipynb         # Notebook preprocessing (pembersihan + konversi tipe data)<br>
-├── Datasets_raw.ipynb          # Notebook eksplorasi dataset mentah<br>
+<img width="823" height="427" alt="image" src="https://github.com/user-attachments/assets/b00f31ae-ad48-4ce6-be89-474b299e112d" />
+
 
 
 
