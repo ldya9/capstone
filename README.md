@@ -35,20 +35,22 @@ Model dibangun menggunakan dataset (produksi, fleet, cycle time, cuaca, logistik
 OptiMine/
 │
 ├── all_dataset/
-│   ├── clean_dataset/        # Dataset hasil pembersihan (clean)
-│   ├── feature_dataset/      # Dataset hasil feature engineering
-│   ├── merge_dataset/        # Dataset gabungan siap training
-│   ├── models/               # Model .joblib hasil training
-│   └── raw_dataset/          # Dataset mentah hasil scraping
+│   ├── clean_dataset/          # Dataset hasil pembersihan (cleaned data)
+│   ├── feature_dataset/        # Dataset setelah feature engineering
+│   ├── merge_dataset/          # Dataset gabungan siap modelling
+│   ├── models/                 # Model .joblib hasil training
+│   └── raw_dataset/            # Dataset mentah hasil scrapping
 │
-├── feature_engineering/      # Script terkait pembuatan fitur
+├── feature_engineering/        # Script untuk pembuatan fitur 
 │
-├── modeling/                 # Script training model (production & material flow)
+├── modeling/                   # Script training model (production & shipping)
 │
-├── preprocessing/
-│   ├── data_celaning.ipynb   # Notebook preprocessing
-│   └── Datasets_raw.ipynb    # Notebook eksplorasi dataset mentah
+├── system/                     # File terkait integrasi dengan FE/BE 
+│
+├── data_celaning.ipynb         # Notebook pembersihan data (EDA + preprocessing)
+├── Datasets_raw.ipynb          # Notebook untuk eksplorasi dataset mentah
 ```
+
 <br>
 
 # **📌 Dataset ** <br>
