@@ -48,7 +48,7 @@ Link Dataset : [Dataset Optimine](https://github.com/ldya9/capstone/tree/fafdb9e
 **Keterbatasan & Peluang Pengembangan** <br>
 Keterbatasan
 - Belum menggunakan data operasional real-time sepenuhnya
-- Menggunakan Random Forest yang menghasilkan feature importance terbatas
+- Menggunakan Random Forest yang menghasilkan feature importance terbatas <br>
 Peluang Pengembangan
 - Penggunaan Model ML yang Lebih Lanjut (XGBoost, LightGBM, Time Series model (Prophet, ARIMA, LSTM), dll)
 - Deployment yang Lebih Stabil (Dockerization, CI/CD pipeline, automatic retraining, dll).
