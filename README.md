@@ -30,7 +30,10 @@ Model dibangun menggunakan dataset (produksi, fleet, cycle time, cuaca, logistik
 - Google Colab dan Visual Studio Code <br>
 
 # **📌 Struktur Project** <br>
-<img width="823" height="427" alt="image" src="https://github.com/user-attachments/assets/b00f31ae-ad48-4ce6-be89-474b299e112d" />
+<p align="center">
+  <img src="[LINK_GAMBAR](https://github.com/user-attachments/assets/b00f31ae-ad48-4ce6-be89-474b299e112d)" width="850">
+</p>
+
 
 
 
