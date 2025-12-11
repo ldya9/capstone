@@ -12,13 +12,13 @@ Sistem Prediksi Produksi dan Optimasi Distribusi Material untuk Mining Value Cha
 - F891D5X1671 - Regina Ayuningrum- Front-End Web & Back-End with AI
 - F891D5X1961 - Windi Dwi Astuti- Front-End Web & Back-End with AI <br>
 
-**📌 Deskripsi** <br> 
+# **📌 Deskripsi** <br> 
 Machine Learning pada proyek Mining Value Chain Optimization bertujuan untuk menyediakan prediksi operasional mingguan yang membantu dua peran utama :
 - Main Planner → prediksi produksi mingguan
 - Shipping Planner → prediksi suplai truck ke jetty <br>
 Model dibangun menggunakan dataset (produksi, fleet, cycle time, cuaca, logistik) dan menghasilkan prediksi akurat yang nantinya dipakai oleh Agentic AI Portal untuk menjawab pertanyaan dan memberikan insight lintas proses tambang. <br>
 
-**📌 Tech Stack** <br>
+# **📌 Tech Stack** <br>
 - Python 3.12
 - Scikit-Learn
 - Pandas & NumPy
@@ -26,10 +26,10 @@ Model dibangun menggunakan dataset (produksi, fleet, cycle time, cuaca, logistik
 - TimeSeriesSplit
 - Matplotlib <br>
 
-**📌 Development Environment**
+# **📌 Development Environment**
 - Google Colab dan Visual Studio Code <br>
 
-**📌 Struktur Project** <br>
+# **📌 Struktur Project** <br>
 <img width="823" height="427" alt="image" src="https://github.com/user-attachments/assets/b00f31ae-ad48-4ce6-be89-474b299e112d" />
 
 
