@@ -16,7 +16,7 @@ Sistem Prediksi Produksi dan Optimasi Distribusi Material untuk Mining Value Cha
 Machine Learning pada proyek Mining Value Chain Optimization bertujuan untuk menyediakan prediksi operasional mingguan yang membantu dua peran utama :
 - Main Planner → prediksi produksi mingguan
 - Shipping Planner → prediksi suplai truck ke jetty <br>
-Model dibangun menggunakan dataset (produksi, fleet, cycle time, cuaca, logistik) dan menghasilkan prediksi akurat yang nantinya dipakai oleh Agentic AI Portal untuk menjawab pertanyaan dan memberikan insight lintas proses tambang. <br>
+Model dibangun menggunakan dataset (produksi, fleet, cuaca, logistik) dan menghasilkan prediksi akurat yang nantinya dipakai oleh Agentic AI Portal untuk menjawab pertanyaan dan memberikan insight lintas proses tambang. <br>
 
 # **📌 Tools & Frameworks** <br>
 - Python 3.12
